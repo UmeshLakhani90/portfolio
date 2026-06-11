@@ -1,118 +1,331 @@
 {
-    "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "👋 I'm Umesh Lakhani. I'm a Full Stack Developer with 10+ years of experience in PHP, Laravel, CodeIgniter, React.js, React Native, Shopify, MySQL, and REST API development. I specialize in building scalable web applications, mobile apps, eCommerce solutions, and custom business software. I enjoy solving complex technical problems and delivering high-quality solutions for clients across multiple industries. 💜",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "AI-Based Support Ticket Prioritization System",
+      "description": "Developed an AI-powered support ticket management system that automatically classifies tickets into High, Medium, and Low priority levels using Natural Language Processing (NLP). Integrated Hugging Face APIs to analyze ticket content and determine urgency, helping support teams improve response times and operational efficiency.",
+      "images": [
+        "images/portfolio/ai/AITMS.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "AI"
+        },
+        {
+          "class": "devicon-php-plain",
+          "name": "PHP"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
+    {
+      "title": "OmniReturns – Return Management Platform",
+      "description": "Enterprise-grade return management platform developed for logistics operations. Streamlined return workflows, automated processing, improved operational efficiency, and enhanced user experience through optimized business processes and scalable architecture.",
+      "images": [
+        "images/portfolio/omnireturns/Logistics.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-codeigniter-plain",
+          "name": "CodeIgniter"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "name": "jQuery",
+          "class": "devicon-jquery-plain"
+        },
+        {
+          "class": "devicon-stripe-original",
+          "name": "Stripe"
+        },
+        {
+          "class": "devicon-graphql-plain",
+          "name": "GraphQL"
+        },
+        {
+          "class": "devicon-shopify-original",
+          "name": "Shopify"
+        }
+      ]
+    },
+    {
+      "title": "OmniWMS – Warehouse Management System",
+      "description": "Developed a robust Warehouse Management System (WMS) for logistics operations, enabling inventory tracking, stock management, warehouse workflows, and operational reporting. Improved inventory accuracy and warehouse efficiency through process automation.",
+      "images": [
+        "images/portfolio/omnireturns/Logistics.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-codeigniter-plain",
+          "name": "CodeIgniter"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "name": "jQuery",
+          "class": "devicon-jquery-plain"
+        }
+      ]
+    },
+    {
+      "title": "OmniRPS – Returns Processing System",
+      "description": "Built a Returns Processing System (RPS) to optimize warehouse return operations through single-scan and depot-scan workflows. Implemented order tracking, processing history, and reporting features to increase operational visibility and efficiency.",
+      "images": [
+        "images/portfolio/omnireturns/Logistics.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-codeigniter-plain",
+          "name": "CodeIgniter"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "name": "jQuery",
+          "class": "devicon-jquery-plain"
+        },
+        {
+          "class": "devicon-graphql-plain",
+          "name": "GraphQL"
+        },
+        {
+          "class": "devicon-shopify-original",
+          "name": "Shopify"
+        }
+      ]
+    },
+    {
+      "title": "OmniCardPay – Payment Processing Platform",
+      "description": "Contributed to the development of OmniCardPay, a secure payment processing platform designed for logistics and cross-border commerce operations. Implemented payment workflows that enabled customers to seamlessly pay duties, taxes, and service charges online. Enhanced transaction security, improved payment processing efficiency, and integrated reliable payment gateways to ensure a smooth and user-friendly payment experience.",
+      "images": [
+        "images/portfolio/omnireturns/Logistics.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-codeigniter-plain",
+          "name": "CodeIgniter"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "name": "jQuery",
+          "class": "devicon-jquery-plain"
+        }
+      ]
+    },
+    {
+      "title": "Shopify Shipping Automation App",
+      "description": "Developed a custom Shopify shipping automation solution that streamlined shipping workflows, order fulfillment, shipment tracking, and logistics integrations. Improved efficiency by reducing manual shipping operations and automating order processing.",
+      "images": [
+        "images/portfolio/shippingapp/ShippingApp.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-laravel-original",
+          "name": "Laravel"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "name": "jQuery",
+          "class": "devicon-jquery-plain"
+        }
+      ]
+    },
+    {
+      "title": "Pets and Trends – Shopify Store",
+      "description": "Designed and developed a complete Shopify e-commerce store with product management, customer-friendly navigation, order processing, and responsive storefront design. Customized the platform according to client requirements and business goals.",
+      "images": [
+        "images/portfolio/pets/PetsTrend.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-shopify-original",
+          "name": "Shopify"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "name": "jQuery",
+          "class": "devicon-jquery-plain"
+        }
+      ]
+    },
+    {
+      "title": "Event Management System",
+      "description": "Built a full-stack event booking and management platform using Node.js and React.js. The system supports event creation, attendee registration, scheduling, booking management, notifications, and administrative reporting.",
+      "images": [
+        "images/portfolio/event/Event.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React.js"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "name": "jQuery",
+          "class": "devicon-jquery-plain"
+        }
+      ]
+    }
+  ],
+
+"experience": [
+  {
+    "company": "SStech System Solution Pvt Ltd",
+    "title": "Senior Software Engineer (Dedicated Developer)",
+    "years": "2021 - Present",
+    "mainTech": [
+      "International Logistics Products"
     ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
+    "technologies": [
+      "Integration of AI",
+      "NLP",
+      "OpenAI",
+      "Hugging Face",
+      "Gemini API",
+      "Github Copilot (Licensed)",
+      "Claude AI",
+      "React Native Mobile App Development using AI",
+      "PHP",
+      "CodeIgniter",
+      "Laravel",
+      "YII Framework",
+      "MySQL",
+      "MongoDB",
+      "AWS",
+      "REST API",
+      "GraphQL",
+      "Datadog",
+      "New Relic",
+      "Jira",
+      "SourceTree",
+      "GitHub",
+      "Bitbucket",
+      "Docker",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Bootstrap",
+      "Shopify",
+      "React.js",
+      "Node.js",  
+      "WordPress"
+    ]
+  },
+  {
+    "company": "SStech System Solution Pvt Ltd",
+    "title": "Software Engineer",
+    "years": "2015 - 2021",
+    "mainTech": [
+      "PHP Development"
+    ],
+    "technologies": [
+      "PHP",
+      "Core PHP",
+      "CodeIgniter",
+      "YII Framework",
+      "MySQL",
+      "Go Daddy Cloud",
+      "REST API",
+      "Trello",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "jQuery",
+      "Bootstrap",
+      "WordPress"
     ]
   }
+]
+
+
+
+}
