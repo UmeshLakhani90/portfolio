@@ -3,42 +3,64 @@ import { Modal } from "react-bootstrap";
 import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
+import "../scss/project-modal.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
 class ProjectDetailsModal extends Component {
   render() {
-    if (this.props.data) {
-      const technologies = this.props.data.technologies;
-      const images = this.props.data.images;
-      var title = this.props.data.title;
-      var description = this.props.data.description;
-      var url = this.props.data.url;
-      if (this.props.data.technologies) {
-        var tech = technologies.map((icons, i) => {
-          return (
-            <li className="list-inline-item mx-3" key={i}>
-              <span>
-                <div className="text-center">
-                  <i className={icons.class} style={{ fontSize: "300%" }}>
-                    <p className="text-center" style={{ fontSize: "30%" }}>
-                      {icons.name}
-                    </p>
-                  </i>
-                </div>
-              </span>
-            </li>
-          );
-        });
-        if (this.props.data.images) {
-          var img = images.map((elem, i) => {
-            return <div key={i} data-src={elem} />;
-          });
-        }
-      }
-    }
+    // -------------------------
+// Project Data
+// -------------------------
+
+const project = this.props.data || {};
+
+const {
+  title = "",
+  category = "",
+  description = "",
+  url = "",
+  images = [],
+  technologies = [],
+
+  role = "",
+  company = "",
+  client = "",
+  duration = "",
+  domain = "",
+  status = "",
+
+  responsibilities = [],
+  features = [],
+  businessImpact = []
+} = project;
+
+// -------------------------
+// Technologies
+// -------------------------
+
+const tech = technologies.map((item, index) => (
+  <span className="tech-badge" key={index}>
+    {item.class && (
+      <i
+        className={item.class}
+        style={{ marginRight: "8px" }}
+      ></i>
+    )}
+    {item.name}
+  </span>
+));
+
+// -------------------------
+// Images
+// -------------------------
+
+const img = images.map((image, index) => (
+  <div key={index} data-src={image} className="project-slide" />
+));
     return (
       <Modal
         {...this.props}
-        size="lg"
+        size="xl"
+        dialogClassName="project-modal"
         aria-labelledby="contained-modal-title-vcenter"
         centered
         className="modal-inside"
@@ -47,7 +69,7 @@ class ProjectDetailsModal extends Component {
           <i className="fas fa-times fa-3x close-icon"></i>
         </span>
         <div className="col-md-12">
-          <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
+          <div className="col-md-10 mx-auto project-content" style={{ paddingBottom: "50px" }}>
             <div className="slider-tab">
               <span
                 className="iconify slider-iconfiy"
@@ -76,26 +98,153 @@ class ProjectDetailsModal extends Component {
               {img}
             </AwesomeSlider>
           </div>
-          <div className="col-md-10 mx-auto">
-            <h3 style={{ padding: "5px 5px 0 5px" }}>
-              {title}
-              {url ? (
-                <a
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link-href"
-                >
-                  <i
-                    className="fas fa-external-link-alt"
-                    style={{ marginLeft: "10px" }}
-                  ></i>
-                </a>
-              ) : null}
-            </h3>
-            <p className="modal-description">{description}</p>
-            <div className="col-md-12 text-center">
-              <ul className="list-inline mx-auto">{tech}</ul>
+          <div className="col-md-10 mx-auto project-content">
+            <div className="project-header">
+              <div>
+                <h2 className="project-title">
+                  {title}
+
+                  {url && (
+                    <a
+                      href={url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="project-link"
+                    >
+                      <i className="fas fa-external-link-alt"></i>
+                    </a>
+                  )}
+                </h2>
+
+                <span className="project-type">
+                  {project.category && (
+                  <span className="project-type">
+                    {project.category}
+                  </span>
+                )}
+                </span>
+                <div className="project-info-grid">
+                  <div className="info-card">
+                    <i className="fas fa-user-tie"></i>
+                    <div>
+                      <span>Role</span>
+                      <strong>{role}</strong>
+                    </div>
+                  </div>
+
+                  <div className="info-card">
+                    <i className="fas fa-building"></i>
+                    <div>
+                      <span>Company</span>
+                      <strong>{company}</strong>
+                    </div>
+                  </div>
+
+                  {client && (
+                    <div className="info-card">
+                      <i className="fas fa-globe"></i>
+                      <div>
+                        <span>Client</span>
+                        <strong>{client}</strong>
+                      </div>
+                    </div>
+                  )}
+
+                  {duration && (
+                    <div className="info-card">
+                      <i className="far fa-calendar-alt"></i>
+                      <div>
+                        <span>Duration</span>
+                        <strong>{duration}</strong>
+                      </div>
+                    </div>
+                  )}
+                  {domain && (
+                    <div className="info-card">
+                      <i className="fas fa-layer-group"></i>
+                      <div>
+                        <span>Domain</span>
+                        <strong>{domain}</strong>
+                      </div>
+                    </div>
+                  )}
+
+                  {status && (
+                    <div className="info-card">
+                      <i className="fas fa-check-circle"></i>
+                      <div>
+                        <span>Status</span>
+                        <strong>{status}</strong>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+
+            <div className="overview-card">
+              <h5>
+                <i className="fas fa-file-alt"></i> Project Overview
+              </h5>
+
+              <p>{description}</p>
+            </div>
+            {responsibilities.length > 0 && (
+            <div className="overview-card">
+              <h5>
+                <i className="fas fa-tasks"></i> Responsibilities
+              </h5>
+
+              <div className="project-list">
+                {responsibilities.map((item, index) => (
+                  <div className="project-item" key={index}>
+                    <i className="fas fa-check-circle"></i>
+                    <span>{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+          {features.length > 0 && (
+  <div className="overview-card">
+    <h5>
+      <i className="fas fa-star"></i> Key Features
+    </h5>
+
+    <div className="project-list">
+      {features.map((item, index) => (
+        <div className="project-item" key={index}>
+          <i className="fas fa-check-circle"></i>
+          <span>{item}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+)}
+{businessImpact.length > 0 && (
+  <div className="overview-card">
+    <h5>
+      <i className="fas fa-chart-line"></i> Business Impact
+    </h5>
+
+    <div className="project-list">
+      {businessImpact.map((item, index) => (
+        <div className="project-item" key={index}>
+          <i className="fas fa-check-circle"></i>
+          <span>{item}</span>
+        </div>
+      ))}
+    </div>
+  </div>
+)}
+            <div className="project-tech-section">
+              <h5 className="section-heading">
+                <i className="fas fa-code"></i> Technology Stack
+              </h5>
+
+              <div className="tech-container">
+                {tech}
+              </div>
             </div>
           </div>
         </div>

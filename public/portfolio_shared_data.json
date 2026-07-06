@@ -1,138 +1,174 @@
 {
-    "basic_info": {
-      "name": "Umesh Lakhani",
-      "titles": [ "Full Stack PHP Developer", "Senior Backend Engineer", "Team lead", "Senior Developer" ],
-      "social": [
-        {
-          "name": "github",
-          "url": "https://github.com/UmeshLakhani90",
-          "class": "fab fa-github"
-        },
-        {
-          "name": "linkedin",
-          "url": "https://www.linkedin.com/in/umesh-l-951b6b39/",
-          "class": "fab fa-linkedin"
-        }
-      ],
-      "image": "1557557875751.jpg"
-    },
-    "skills": {
-      "icons": [
-         {
-          "name": "PHP",
-          "class": "devicon-php-plain",
-          "level": "95"
-        },
-        {
-          "name": "CodeIgniter",
-          "class": "devicon-codeigniter-plain",
-          "level": "80"
-        },
-        {
-          "name": "Laravel",
-          "class": "devicon-laravel-original",
-          "level": "95"
-        },
-        {
-          "name": "NodeJS",
-          "class": "devicon-nodejs-plain",
-          "level": "90"
-        },
-        {
-          "name": "ReactJS",
-          "class": "devicon-react-original",
-          "level": "90"
-        },
-        {
-          "name": "ExpressJS",
-          "class": "devicon-express-original",
-          "level": "90"
-        },
-        {
-          "name": "YII",
-          "class": "devicon-yii-plain",
-          "level": "90"
-        },
-        {
-          "name": "Shopify",
-          "class": "devicon-react-original",
-          "level": "90"
-        },
-        {
-          "name": "WordPress",
-          "class": "devicon-wordpress-plain",
-          "level": "90"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "Jquery",
-          "class": "devicon-jquery-plain",
-          "level": "70"
-        },
-        {
-          "name": "HTML5",
-          "class": "devicon-html5-plain",
-          "level": "75"
-        },
-        {
-          "name": "CSS3",
-          "class": "devicon-css3-plain",
-          "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
-        },
-        {
-          "name": "MongoDB",
-          "class": "devicon-mongodb-plain",
-          "level": "60"
-        },
-        {
-          "name": "PostgreSQL",
-          "class": "devicon-postgresql-plain",
-          "level": "60"
-        },
-        {
-          "name": "Git",
-          "class": "devicon-git-plain",
-          "level": "60"
-        },
-         {
-          "name": "SourceTree",
-          "class": "devicon-sourcetree-original",
-          "level": "60"
-        },
-        {
-          "name": "Jira",
-          "class": "devicon-jira-plain",
-          "level": "60"
-        },
-        {
-          "name": "BitBucket",
-          "class": "devicon-bitbucket-original",
-          "level": "60"
-        },
-        {
-          "name": "Docker",
-          "class": "devicon-docker-plain",
-          "level": "60"
-        },
-        {
-          "name": "AWS",
-          "class": "devicon-amazonwebservices-plain-wordmark",
-          "level": "60"
-        }
-      ]
-    }
+  "basic_info": {
+    "name": "Umesh Lakhani",
+    "titles": [
+      "Senior Software Engineer",
+      "Backend Engineer",
+      "Full Stack Developer",
+      "AI Integration Engineer"
+    ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/UmeshLakhani90",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/umesh-l-951b6b39/",
+        "class": "fab fa-linkedin"
+      }
+    ],
+    "image": "1557557875751.jpg"
+  },
+
+  "skills": {
+    "icons": [
+      {
+        "name": "PHP",
+        "class": "devicon-php-plain",
+        "level": "95"
+      },
+      {
+        "name": "CodeIgniter",
+        "class": "devicon-codeigniter-plain",
+        "level": "95"
+      },
+      {
+        "name": "Laravel",
+        "class": "devicon-laravel-original",
+        "level": "75"
+      },
+      {
+        "name": "NodeJS",
+        "class": "devicon-nodejs-plain",
+        "level": "80"
+      },
+      {
+        "name": "ExpressJS",
+        "class": "devicon-express-original",
+        "level": "80"
+      },
+      {
+        "name": "ReactJS",
+        "class": "devicon-react-original",
+        "level": "80"
+      },
+      {
+        "name": "YII Framework",
+        "class": "devicon-yii-plain",
+        "level": "80"
+      },
+      {
+        "name": "Shopify",
+        "class": "devicon-shopify-original",
+        "level": "80"
+      },
+      {
+        "name": "WordPress",
+        "class": "devicon-wordpress-plain",
+        "level": "80"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "90"
+      },
+      {
+        "name": "jQuery",
+        "class": "devicon-jquery-plain",
+        "level": "90"
+      },
+      {
+        "name": "HTML5",
+        "class": "devicon-html5-plain",
+        "level": "90"
+      },
+      {
+        "name": "CSS3",
+        "class": "devicon-css3-plain",
+        "level": "85"
+      },
+      {
+        "name": "Bootstrap",
+        "class": "devicon-bootstrap-plain",
+        "level": "90"
+      },
+      {
+        "name": "MySQL",
+        "class": "devicon-mysql-plain",
+        "level": "90"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "70"
+      },
+      {
+        "name": "PostgreSQL",
+        "class": "devicon-postgresql-plain",
+        "level": "60"
+      },
+      {
+        "name": "REST API",
+        "class": "fas fa-plug",
+        "level": "95"
+      },
+      {
+        "name": "GraphQL",
+        "class": "devicon-graphql-plain",
+        "level": "70"
+      },
+      {
+        "name": "Git",
+        "class": "devicon-git-plain",
+        "level": "90"
+      },
+      {
+        "name": "SourceTree",
+        "class": "devicon-sourcetree-original",
+        "level": "90"
+      },
+      {
+        "name": "Jira",
+        "class": "devicon-jira-plain",
+        "level": "90"
+      },
+      {
+        "name": "Bitbucket",
+        "class": "devicon-bitbucket-original",
+        "level": "90"
+      },
+      {
+        "name": "Docker",
+        "class": "devicon-docker-plain",
+        "level": "75"
+      },
+      {
+        "name": "AWS",
+        "class": "devicon-amazonwebservices-plain-wordmark",
+        "level": "65"
+      },
+      {
+        "name": "OpenAI API",
+        "class": "fas fa-robot",
+        "level": "80"
+      },
+      {
+        "name": "Gemini API",
+        "class": "fas fa-brain",
+        "level": "75"
+      },
+      {
+        "name": "GitHub Copilot",
+        "class": "fab fa-github",
+        "level": "85"
+      },
+      {
+        "name": "Prompt Engineering",
+        "class": "fas fa-magic",
+        "level": "80"
+      }
+    ]
   }
+}

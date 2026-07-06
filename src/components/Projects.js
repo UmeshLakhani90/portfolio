@@ -27,19 +27,54 @@ class Projects extends Component {
           >
             <span className="portfolio-item d-block">
               <div className="foto" onClick={() => detailsModalShow(projects)}>
-                <div>
+                <div className="project-card">
+
+                <div className="project-image-wrapper">
+
                   <img
                     src={projects.images[0]}
-                    alt="projectImages"
-                    height="230"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
+                    alt={projects.title}
+                    className="project-image"
                   />
-                  <span className="project-date">{projects.startDate}</span>
-                  <br />
-                  <p className="project-title-settings mt-3">
-                    {projects.title}
-                  </p>
+
+                  {projects.category && (
+                    <span className="project-category">
+                      {projects.category}
+                    </span>
+                  )}
+
+                  {projects.status && (
+                    <span className="project-status">
+                      {projects.status}
+                    </span>
+                  )}
+
                 </div>
+
+                <div className="project-card-body">
+
+                  <h5 className="project-title-settings">
+                    {projects.title}
+                  </h5>
+
+                  <div className="project-tech-preview">
+
+                    {projects.technologies &&
+                      projects.technologies.slice(0,3).map((tech,index)=>(
+                        <span key={index} className="project-chip">
+                          {tech.name}
+                        </span>
+                    ))}
+
+                  </div>
+
+                  <button className="project-view-btn">
+                    View Details →
+                  </button>
+
+                </div>
+
+              </div>
               </div>
             </span>
           </div>

@@ -1,22 +1,59 @@
 {
   "basic_info": {
-    "description_header": "Hi",
-    "description": "👋 I'm Umesh Lakhani. I'm a Full Stack Developer with 10+ years of experience in PHP, Laravel, CodeIgniter, React.js, React Native, Shopify, MySQL, and REST API development. I specialize in building scalable web applications, mobile apps, eCommerce solutions, and custom business software. I enjoy solving complex technical problems and delivering high-quality solutions for clients across multiple industries. 💜",
+    "description_header": "Hello!",
+    "description": "👋 I'm Umesh Lakhani, a Senior Software Engineer with 11+ years of experience in designing and developing enterprise web applications, SaaS platforms, logistics solutions, AI-powered applications, and eCommerce systems. I specialize in PHP, Laravel, CodeIgniter, Node.js, React.js, MySQL, REST APIs, and AI integrations using OpenAI, Gemini, and Hugging Face. I enjoy solving complex business problems, designing scalable architectures, optimizing application performance, and delivering high-quality software solutions for global clients.",
     "section_name": {
-      "about": "About me",
-      "projects": "Projects",
-      "skills": "Skills",
-      "experience": "Experience"
+      "about": "About Me",
+      "projects": "Featured Projects",
+      "skills": "Technical Skills",
+      "experience": "Professional Experience"
     }
   },
+
   "projects": [
+
     {
       "title": "AI-Based Support Ticket Prioritization System",
-      "description": "Developed an AI-powered support ticket management system that automatically classifies tickets into High, Medium, and Low priority levels using Natural Language Processing (NLP). Integrated Hugging Face APIs to analyze ticket content and determine urgency, helping support teams improve response times and operational efficiency.",
+      "category": "AI",
+      "role": "Senior Software Engineer",
+      "company": "Personal Innovation Project",
+      "client": "Internal Demo",
+      "duration": "2025",
+      "domain": "Artificial Intelligence",
+      "status": "Completed",
+
+      "description": "Designed and developed an AI-powered support ticket prioritization platform that automatically classifies customer support requests into High, Medium, and Low priority using Natural Language Processing (NLP) and Hugging Face APIs. The solution improves support response times and reduces manual ticket triaging.",
+
+      "responsibilities": [
+        "Designed backend architecture",
+        "Integrated Hugging Face API",
+        "Implemented NLP-based ticket classification",
+        "Developed REST APIs",
+        "Designed MySQL database",
+        "Created responsive dashboard"
+      ],
+
+      "features": [
+        "AI Ticket Classification",
+        "Priority Prediction",
+        "Support Dashboard",
+        "REST API",
+        "Analytics",
+        "Role-based Authentication"
+      ],
+
+      "businessImpact": [
+        "Reduced manual ticket sorting",
+        "Improved SLA response time",
+        "Improved support productivity"
+      ],
+
       "images": [
         "images/portfolio/ai/AITMS.png"
       ],
+
       "url": "",
+
       "technologies": [
         {
           "class": "devicon-python-plain",
@@ -36,13 +73,50 @@
         }
       ]
     },
+
     {
-      "title": "OmniReturns – Return Management Platform | SEKO Logistics",
-      "description": "Enterprise-grade return management platform developed for logistics operations. Streamlined return workflows, automated processing, improved operational efficiency, and enhanced user experience through optimized business processes and scalable architecture.",
+      "title": "OmniReturns - Return Management Platform | SEKO Logistics",
+      "category": "Logistics",
+      "role": "Senior Software Engineer",
+      "company": "SStech System Solution Pvt Ltd",
+      "client": "SEKO Logistics",
+      "duration": "2021 - 2026",
+      "domain": "Logistics & Supply Chain",
+      "status": "Completed",
+      "description": "Developed a scalable enterprise Return Management Platform for international logistics operations. Automated return workflows, warehouse processing, shipment tracking and customer communication while improving operational efficiency through optimized backend services.",
+      "responsibilities": [
+        "Backend Development",
+        "REST API Development",
+        "Database Design",
+        "MySQL Query Optimization",
+        "GraphQL Integration",
+        "Stripe Integration",
+        "Shopify Integration",
+        "Bug Fixing & Production Support"
+      ],
+
+      "features": [
+        "Return Management",
+        "Shipment Tracking",
+        "Warehouse Integration",
+        "Customer Dashboard",
+        "Email Notifications",
+        "Reporting Module"
+      ],
+
+      "businessImpact": [
+        "Reduced manual processing",
+        "Improved warehouse efficiency",
+        "Optimized return workflow",
+        "Enhanced customer experience"
+      ],
+
       "images": [
         "images/portfolio/omnireturns/Logistics.png"
       ],
+
       "url": "",
+
       "technologies": [
         {
           "class": "devicon-codeigniter-plain",
@@ -61,8 +135,8 @@
           "name": "JavaScript"
         },
         {
-          "name": "jQuery",
-          "class": "devicon-jquery-plain"
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
         },
         {
           "class": "devicon-stripe-original",
@@ -78,13 +152,48 @@
         }
       ]
     },
+
     {
-      "title": "OmniWMS – Warehouse Management System | SEKO Logistics",
-      "description": "Developed a robust Warehouse Management System (WMS) for logistics operations, enabling inventory tracking, stock management, warehouse workflows, and operational reporting. Improved inventory accuracy and warehouse efficiency through process automation.",
+      "title": "OmniWMS - Warehouse Management System | SEKO Logistics",
+      "category": "Logistics",
+      "role": "Senior Software Engineer",
+      "company": "SStech System Solution Pvt Ltd",
+      "client": "SEKO Logistics",
+      "duration": "2021 - 2026",
+      "domain": "Warehouse Management",
+      "status": "Completed",
+
+      "description": "Developed enterprise Warehouse Management modules supporting inventory tracking, stock movement, warehouse workflows, reporting dashboards and operational automation for international logistics operations.",
+
+      "responsibilities": [
+        "Backend Development",
+        "Warehouse Workflow Development",
+        "Inventory Module Development",
+        "REST API Development",
+        "Database Optimization",
+        "Bug Fixing"
+      ],
+
+      "features": [
+        "Inventory Tracking",
+        "Barcode Processing",
+        "Warehouse Dashboard",
+        "Stock Management",
+        "Operational Reports"
+      ],
+
+      "businessImpact": [
+        "Improved inventory accuracy",
+        "Reduced warehouse processing time",
+        "Improved operational visibility"
+      ],
+
       "images": [
         "images/portfolio/omnireturns/Logistics.png"
       ],
+
       "url": "",
+
       "technologies": [
         {
           "class": "devicon-codeigniter-plain",
@@ -103,18 +212,52 @@
           "name": "JavaScript"
         },
         {
-          "name": "jQuery",
-          "class": "devicon-jquery-plain"
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
         }
       ]
     },
-    {
-      "title": "OmniRPS – Returns Processing System | SEKO Logistics",
-      "description": "Built a Returns Processing System (RPS) to optimize warehouse return operations through single-scan and depot-scan workflows. Implemented order tracking, processing history, and reporting features to increase operational visibility and efficiency.",
+        {
+      "title": "OmniRPS - Returns Processing System | SEKO Logistics",
+      "category": "Logistics",
+      "role": "Senior Software Engineer",
+      "company": "SStech System Solution Pvt Ltd",
+      "client": "SEKO Logistics",
+      "duration": "2021 - 2026",
+      "domain": "Returns Processing",
+      "status": "Completed",
+
+      "description": "Developed a Returns Processing System (RPS) to automate warehouse return operations using Single Scan and Depot Scan workflows. Improved processing efficiency through workflow automation, reporting, and order tracking.",
+
+      "responsibilities": [
+        "Backend Development",
+        "REST API Development",
+        "Warehouse Workflow Automation",
+        "Database Optimization",
+        "Reporting Module Development",
+        "Production Support"
+      ],
+
+      "features": [
+        "Single Scan Workflow",
+        "Depot Scan Workflow",
+        "Order Tracking",
+        "Processing History",
+        "Reporting Dashboard"
+      ],
+
+      "businessImpact": [
+        "Improved warehouse productivity",
+        "Reduced manual processing",
+        "Enhanced operational visibility"
+      ],
+
       "images": [
         "images/portfolio/omnireturns/Logistics.png"
       ],
+
       "url": "",
+
       "technologies": [
         {
           "class": "devicon-codeigniter-plain",
@@ -133,8 +276,8 @@
           "name": "JavaScript"
         },
         {
-          "name": "jQuery",
-          "class": "devicon-jquery-plain"
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
         },
         {
           "class": "devicon-graphql-plain",
@@ -146,13 +289,48 @@
         }
       ]
     },
+
     {
-      "title": "OmniCardPay – Payment Processing Platform | SEKO Logistics",
-      "description": "Contributed to the development of OmniCardPay, a secure payment processing platform designed for logistics and cross-border commerce operations. Implemented payment workflows that enabled customers to seamlessly pay duties, taxes, and service charges online. Enhanced transaction security, improved payment processing efficiency, and integrated reliable payment gateways to ensure a smooth and user-friendly payment experience.",
+      "title": "OmniCardPay - Payment Processing Platform | SEKO Logistics",
+      "category": "Logistics",
+      "role": "Senior Software Engineer",
+      "company": "SStech System Solution Pvt Ltd",
+      "client": "SEKO Logistics",
+      "duration": "2021 - 2026",
+      "domain": "Payment Gateway",
+      "status": "Completed",
+
+      "description": "Developed secure payment processing modules enabling customers to pay customs duties, taxes, shipping charges, and logistics service fees online. Integrated payment workflows and optimized transaction processing.",
+
+      "responsibilities": [
+        "Payment Gateway Integration",
+        "Backend Development",
+        "REST API Development",
+        "Database Design",
+        "Security Enhancements",
+        "Production Support"
+      ],
+
+      "features": [
+        "Online Payments",
+        "Duty & Tax Payments",
+        "Payment History",
+        "Transaction Management",
+        "Secure Checkout"
+      ],
+
+      "businessImpact": [
+        "Improved payment experience",
+        "Reduced payment failures",
+        "Enhanced transaction security"
+      ],
+
       "images": [
         "images/portfolio/omnireturns/Logistics.png"
       ],
+
       "url": "",
+
       "technologies": [
         {
           "class": "devicon-codeigniter-plain",
@@ -171,18 +349,49 @@
           "name": "JavaScript"
         },
         {
-          "name": "jQuery",
-          "class": "devicon-jquery-plain"
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
         }
       ]
     },
+
     {
       "title": "Shopify Shipping Automation App",
-      "description": "Developed a custom Shopify shipping automation solution that streamlined shipping workflows, order fulfillment, shipment tracking, and logistics integrations. Improved efficiency by reducing manual shipping operations and automating order processing.",
+      "category": "Shopify",
+      "role": "Full Stack Developer",
+      "company": "SStech System Solution Pvt Ltd",
+      "client": "Confidential",
+      "duration": "2024",
+      "domain": "eCommerce Logistics",
+      "status": "Completed",
+
+      "description": "Developed a custom Shopify Shipping Automation application that streamlined shipping workflows, shipment tracking, label generation, and logistics integrations.",
+
+      "responsibilities": [
+        "Laravel Development",
+        "Shopify API Integration",
+        "Shipping Workflow Automation",
+        "REST API Development"
+      ],
+
+      "features": [
+        "Shipping Labels",
+        "Order Synchronization",
+        "Shipment Tracking",
+        "Automation"
+      ],
+
+      "businessImpact": [
+        "Reduced manual shipping work",
+        "Improved fulfillment efficiency"
+      ],
+
       "images": [
         "images/portfolio/shippingapp/ShippingApp.png"
       ],
+
       "url": "",
+
       "technologies": [
         {
           "class": "devicon-laravel-original",
@@ -197,18 +406,49 @@
           "name": "JavaScript"
         },
         {
-          "name": "jQuery",
-          "class": "devicon-jquery-plain"
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
         }
       ]
     },
+
     {
-      "title": "Pets and Trends – Shopify Store",
-      "description": "Designed and developed a complete Shopify e-commerce store with product management, customer-friendly navigation, order processing, and responsive storefront design. Customized the platform according to client requirements and business goals.",
+      "title": "Pets and Trends - Shopify Store",
+      "category": "Shopify",
+      "role": "Full Stack Developer",
+      "company": "Freelance Project",
+      "client": "Pets and Trends",
+      "duration": "2023",
+      "domain": "eCommerce",
+      "status": "Completed",
+
+      "description": "Designed and customized a complete Shopify eCommerce store with responsive layouts, payment integration, product management, and order processing.",
+
+      "responsibilities": [
+        "Theme Customization",
+        "Store Development",
+        "Product Management",
+        "Performance Optimization"
+      ],
+
+      "features": [
+        "Responsive Store",
+        "Product Catalog",
+        "Secure Checkout",
+        "Order Management"
+      ],
+
+      "businessImpact": [
+        "Improved customer shopping experience",
+        "Delivered scalable online storefront"
+      ],
+
       "images": [
         "images/portfolio/pets/PetsTrend.png"
       ],
+
       "url": "",
+
       "technologies": [
         {
           "class": "devicon-shopify-original",
@@ -219,18 +459,49 @@
           "name": "JavaScript"
         },
         {
-          "name": "jQuery",
-          "class": "devicon-jquery-plain"
+          "class": "devicon-jquery-plain",
+          "name": "jQuery"
         }
       ]
     },
+
     {
       "title": "Event Management System",
-      "description": "Built a full-stack event booking and management platform using Node.js and React.js. The system supports event creation, attendee registration, scheduling, booking management, notifications, and administrative reporting.",
+      "category": "Full Stack Application",
+      "role": "Full Stack Developer",
+      "company": "Personal Project",
+      "client": "Self Learning",
+      "duration": "2025",
+      "domain": "Event Management",
+      "status": "Completed",
+
+      "description": "Built a full-stack Event Management platform using Node.js, React.js, MongoDB, and REST APIs with event creation, attendee registration, booking management, scheduling, and administrative dashboards.",
+
+      "responsibilities": [
+        "React Development",
+        "Node.js Backend",
+        "MongoDB Database Design",
+        "REST API Development"
+      ],
+
+      "features": [
+        "Event Creation",
+        "Booking Management",
+        "Registration",
+        "Admin Dashboard"
+      ],
+
+      "businessImpact": [
+        "Demonstrated modern full-stack architecture",
+        "Improved practical React and Node.js skills"
+      ],
+
       "images": [
         "images/portfolio/event/Event.png"
       ],
+
       "url": "",
+
       "technologies": [
         {
           "class": "devicon-nodejs-plain",
@@ -247,85 +518,94 @@
         {
           "class": "devicon-javascript-plain",
           "name": "JavaScript"
-        },
-        {
-          "name": "jQuery",
-          "class": "devicon-jquery-plain"
         }
       ]
     }
-  ],
+      ],
 
-"experience": [
-  {
-    "company": "SStech System Solution Pvt Ltd",
-    "title": "Senior Software Engineer (Dedicated Developer)",
-    "years": "2021 - 2026",
-    "mainTech": [
-      "International Logistics Products"
-    ],
-    "technologies": [
-      "Integration of AI",
-      "NLP",
-      "OpenAI",
-      "Hugging Face",
-      "Gemini API",
-      "Github Copilot (Licensed)",
-      "Claude AI",
-      "React Native Mobile App Development using AI",
-      "PHP",
-      "CodeIgniter",
-      "Laravel",
-      "YII Framework",
-      "MySQL",
-      "MongoDB",
-      "AWS",
-      "REST API",
-      "GraphQL",
-      "Datadog",
-      "New Relic",
-      "Jira",
-      "SourceTree",
-      "GitHub",
-      "Bitbucket",
-      "Docker",
-      "HTML5",
-      "CSS3",
-      "JavaScript",
-      "jQuery",
-      "Bootstrap",
-      "Shopify",
-      "React.js",
-      "Node.js",  
-      "WordPress"
-    ]
-  },
-  {
-    "company": "SStech System Solution Pvt Ltd",
-    "title": "Software Engineer",
-    "years": "2015 - 2021",
-    "mainTech": [
-      "PHP Development"
-    ],
-    "technologies": [
-      "PHP",
-      "Core PHP",
-      "CodeIgniter",
-      "YII Framework",
-      "MySQL",
-      "Go Daddy Cloud",
-      "REST API",
-      "Trello",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "jQuery",
-      "Bootstrap",
-      "WordPress"
-    ]
-  }
-]
+  "experience": [
+    {
+      "company": "SStech System Solution Pvt Ltd",
+      "title": "Senior Software Engineer",
+      "years": "2021 - 2026",
+      "mainTech": [
+        "Enterprise Logistics & AI Solutions"
+      ],
+      "summary": "Working as a Senior Software Engineer on enterprise logistics products for international clients. Responsible for backend development, REST API design, AI integrations, payment gateway integration, warehouse management systems, performance optimization, and production support.",
 
+      "achievements": [
+        "Developed enterprise logistics platforms",
+        "Built scalable REST APIs",
+        "Integrated AI services using OpenAI, Gemini and Hugging Face",
+        "Implemented payment gateway integrations",
+        "Optimized MySQL queries and backend performance",
+        "Worked with international logistics clients",
+        "Developed Shopify applications",
+        "Mentored junior developers",
+        "Participated in Agile/Scrum development"
+      ],
 
+      "technologies": [
+        "PHP",
+        "CodeIgniter",
+        "Laravel",
+        "Node.js",
+        "React.js",
+        "React Native",
+        "MySQL",
+        "MongoDB",
+        "REST API",
+        "GraphQL",
+        "OpenAI",
+        "Gemini API",
+        "Hugging Face",
+        "GitHub Copilot",
+        "Docker",
+        "AWS",
+        "Git",
+        "Bitbucket",
+        "Jira",
+        "Datadog",
+        "New Relic",
+        "Shopify",
+        "WordPress"
+      ]
+    },
 
+    {
+      "company": "SStech System Solution Pvt Ltd",
+      "title": "Software Engineer",
+      "years": "2015 - 2021",
+      "mainTech": [
+        "PHP Development"
+      ],
+
+      "summary": "Developed custom web applications, CMS platforms, ERP modules, CRM systems, eCommerce websites, and REST APIs using PHP, CodeIgniter, Yii Framework, MySQL, JavaScript, Bootstrap, and WordPress.",
+
+      "achievements": [
+        "Developed multiple business applications",
+        "Built reusable REST APIs",
+        "Customized WordPress websites",
+        "Designed MySQL databases",
+        "Implemented responsive UI",
+        "Maintained legacy applications"
+      ],
+
+      "technologies": [
+        "PHP",
+        "CodeIgniter",
+        "Yii Framework",
+        "MySQL",
+        "REST API",
+        "Bootstrap",
+        "JavaScript",
+        "jQuery",
+        "HTML5",
+        "CSS3",
+        "WordPress",
+        "GoDaddy Cloud",
+        "Trello"
+      ]
+    }
+  ]
 }
