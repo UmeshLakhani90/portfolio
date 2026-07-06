@@ -77,10 +77,49 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} :) </span>
-                    <br />
-                    <br />
-                    {about}
+                    <span className="wave">{hello} 👋</span>
+
+                    <h3 className="about-title">
+                      Senior Software Engineer
+                    </h3>
+
+                    <p className="about-description">
+                      {about}
+                    </p>
+
+                    <div className="about-highlights">
+
+                      <div className="highlight-item">
+                        ✔ 11+ Years of Professional Experience
+                      </div>
+
+                      <div className="highlight-item">
+                        ✔ Enterprise Logistics & SaaS Solutions
+                      </div>
+
+                      <div className="highlight-item">
+                        ✔ PHP, Laravel & CodeIgniter Expert
+                      </div>
+
+                      <div className="highlight-item">
+                        ✔ Node.js & React.js Development
+                      </div>
+
+                      <div className="highlight-item">
+                        ✔ OpenAI & Gemini API Integration
+                      </div>
+
+                      <div className="highlight-item">
+                        ✔ REST APIs & Third-party Integrations
+                      </div>
+
+                      <div className="highlight-item">
+                        ✔ Shopify & Payment Gateway Solutions
+                      </div>
+                      <div className="highlight-item">
+                        ✔ Agile, Scrum & Team Collaboration
+                      </div>  
+                    </div>
                   </div>
                 </div>
               </div>

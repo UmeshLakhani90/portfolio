@@ -23,20 +23,18 @@ class Footer extends Component {
       <footer>
         <div className="container text-center py-5">
 
-          <h3 className="mb-3">Let's Connect</h3>
+          <h3 className="mb-3">Let's Build Something Great Together 🚀</h3>
 
           <p className="mb-3">
-            Senior Software Engineer specializing in Enterprise SaaS,
-            Logistics Platforms, E-Commerce Solutions, and AI-Powered
-            Applications.
+            Senior Software Engineer with 10+ years of experience building enterprise logistics platforms, AI-powered applications, scalable REST APIs, and eCommerce solutions.
           </p>
 
-          <div className="mb-2">
+          <div className="mb-3">
             <i className="fas fa-map-marker-alt"></i>
             <span className="ml-2">Ahmedabad, Gujarat, India</span>
           </div>
 
-          <div className="mb-2">
+          <div className="mb-3">
             <i className="fas fa-envelope"></i>
             <a
               href="mailto:lakhani.umeshk@gmail.com"
@@ -56,13 +54,35 @@ class Footer extends Component {
               +91 84607 57583
             </a>
           </div>
+          <div className="mb-3">
+            <i className="fab fa-github"></i>
+            <a
+              href="https://github.com/UmeshLakhani90"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-2"
+              style={{ color: "inherit", textDecoration: "none" }}
+            >
+              github.com/UmeshLakhani90
+            </a>
+          </div>
           <div className="mb-4">
             <i className="fas fa-briefcase"></i>
             <span className="ml-2">
               Open to Full-Time, Remote & Contract Opportunities
             </span>
           </div>
-
+          <div className="footer-actions mb-4">
+            <a
+              href="/resume/UmeshCV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="footer-resume-btn"
+            >
+              <i className="fas fa-file-pdf"></i>
+              Download Resume
+            </a>
+          </div>
           <div className="social-links mb-4">
             {networks}
           </div>

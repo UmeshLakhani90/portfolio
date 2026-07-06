@@ -1,7 +1,7 @@
 {
   "basic_info": {
-    "description_header": "Hello!",
-    "description": "👋 I'm Umesh Lakhani, a Senior Software Engineer with 11+ years of experience in designing and developing enterprise web applications, SaaS platforms, logistics solutions, AI-powered applications, and eCommerce systems. I specialize in PHP, Laravel, CodeIgniter, Node.js, React.js, MySQL, REST APIs, and AI integrations using OpenAI, Gemini, and Hugging Face. I enjoy solving complex business problems, designing scalable architectures, optimizing application performance, and delivering high-quality software solutions for global clients.",
+    "description_header": "About Me",
+    "description": "Senior Software Engineer with 10+ years of experience building enterprise logistics platforms, SaaS products, AI-powered applications, and eCommerce solutions. Skilled in PHP, Laravel, CodeIgniter, Node.js, React.js, MySQL, REST APIs, and AI integrations using OpenAI and Gemini. Passionate about designing scalable backend systems and delivering reliable software for global businesses.",
     "section_name": {
       "about": "About Me",
       "projects": "Featured Projects",
@@ -534,15 +534,11 @@
       "summary": "Working as a Senior Software Engineer on enterprise logistics products for international clients. Responsible for backend development, REST API design, AI integrations, payment gateway integration, warehouse management systems, performance optimization, and production support.",
 
       "achievements": [
-        "Developed enterprise logistics platforms",
-        "Built scalable REST APIs",
-        "Integrated AI services using OpenAI, Gemini and Hugging Face",
-        "Implemented payment gateway integrations",
+        "Developed enterprise logistics platforms for international clients",
+        "Built scalable REST APIs and third-party integrations",
+        "Integrated OpenAI & Gemini APIs into business applications",
         "Optimized MySQL queries and backend performance",
-        "Worked with international logistics clients",
-        "Developed Shopify applications",
-        "Mentored junior developers",
-        "Participated in Agile/Scrum development"
+        "Worked in Agile Scrum environment"
       ],
 
       "technologies": [

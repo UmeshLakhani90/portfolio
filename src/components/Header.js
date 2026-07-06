@@ -54,11 +54,11 @@ class Header extends Component {
       <header
         id="home"
         style={{
-          minHeight: window.innerHeight - 140,
+          minHeight: "100vh",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          paddingTop: "40px",
+          paddingTop: "80px",
           paddingBottom: "40px"
         }}
       >
@@ -66,7 +66,7 @@ class Header extends Component {
           <div className="col-md-12 text-center">
             <span
               className="iconify header-icon"
-              data-icon="la:laptop-code"
+              data-icon="mdi:code-braces-box"
               data-inline="false"
             ></span>
 
@@ -77,36 +77,29 @@ class Header extends Component {
             <div className="title-container mb-4">
               <HeaderTitleTypeAnimation />
             </div>
+            {/* <p className="hero-subtitle">
+              11+ Years • Enterprise SaaS • AI Integration • REST APIs • Logistics Solutions
+            </p> */}
+            <p className="hero-stack">
+              PHP • Laravel • Node.js • React.js • MySQL • AI Integration
+            </p>
 
             {/* Resume Button */}
-            <div
-              style={{
-                marginTop: "20px",
-                marginBottom: "25px"
-              }}
-            >
+            <div className="hero-actions">
               <a
                 href="/resume/UmeshCV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  gap: "10px",
-                  padding: "14px 30px",
-                  backgroundColor: "#1f2235",
-                  color: "#ffffff",
-                  borderRadius: "8px",
-                  textDecoration: "none",
-                  fontWeight: "600",
-                  fontSize: "16px",
-                  boxShadow: "0 2px 8px rgba(0,0,0,0.15)"
-                }}
+                className="resume-btn"
               >
-                <i className="fas fa-download"></i>
+                <i className="fas fa-file-pdf"></i>
                 Download Resume
               </a>
+            </div>
+            <div className="hero-footer">
+            <div className="availability-badge">
+                <i className="fas fa-circle"></i>
+                Available for Full-Time • Remote • Ahmedabad
             </div>
 
             <Switch
@@ -114,21 +107,19 @@ class Header extends Component {
               onChange={this.onThemeSwitchChange}
               offColor="#baaa80"
               onColor="#353535"
-              className="react-switch mx-auto"
+              className="react-switch"
               width={90}
               height={40}
               uncheckedIcon={
                 <span
                   className="iconify"
                   data-icon="twemoji:owl"
-                  data-inline="false"
                   style={{
                     display: "block",
                     height: "100%",
                     fontSize: 25,
                     textAlign: "end",
-                    marginLeft: "20px",
-                    color: "#353239"
+                    marginLeft: "20px"
                   }}
                 ></span>
               }
@@ -136,19 +127,17 @@ class Header extends Component {
                 <span
                   className="iconify"
                   data-icon="noto-v1:sun-with-face"
-                  data-inline="false"
                   style={{
                     display: "block",
                     height: "100%",
                     fontSize: 25,
                     textAlign: "end",
-                    marginLeft: "10px",
-                    color: "#353239"
+                    marginLeft: "10px"
                   }}
                 ></span>
               }
-              id="icon-switch"
             />
+          </div>
           </div>
         </div>
       </header>
