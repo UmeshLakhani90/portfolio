@@ -23,7 +23,12 @@ class Footer extends Component {
       <footer>
         <div className="container text-center py-5">
 
-          <h3 className="mb-3">Let's Build Something Great Together 🚀</h3>
+          <h3 className="mb-3">
+            Let's Build Something Great Together{" "}
+            <span role="img" aria-label="rocket">
+              🚀
+            </span>
+          </h3>
 
           <p className="mb-3">
             Senior Software Engineer with 10+ years of experience building enterprise logistics platforms, AI-powered applications, scalable REST APIs, and eCommerce solutions.

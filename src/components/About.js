@@ -77,7 +77,12 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} 👋</span>
+                    <span className="wave">
+                      {hello}{" "}
+                      <span role="img" aria-label="waving hand">
+                        👋
+                      </span>
+                    </span>
 
                     <h3 className="about-title">
                       Senior Software Engineer
