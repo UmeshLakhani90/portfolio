@@ -116,13 +116,11 @@ const img = images.map((image, index) => (
                   )}
                 </h2>
 
-                <span className="project-type">
-                  {project.category && (
+                {category && (
                   <span className="project-type">
-                    {project.category}
+                    {category}
                   </span>
                 )}
-                </span>
                 <div className="project-info-grid">
                   <div className="info-card">
                     <i className="fas fa-user-tie"></i>
