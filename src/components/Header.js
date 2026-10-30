@@ -97,47 +97,47 @@ class Header extends Component {
               </a>
             </div>
             <div className="hero-footer">
-            <div className="availability-badge">
+              <div className="availability-badge">
                 <i className="fas fa-circle"></i>
                 Available for Full-Time • Remote • Ahmedabad
-            </div>
+              </div>
 
-            <Switch
-              checked={this.state.checked}
-              onChange={this.onThemeSwitchChange}
-              offColor="#baaa80"
-              onColor="#353535"
-              className="react-switch"
-              width={90}
-              height={40}
-              uncheckedIcon={
-                <span
-                  className="iconify"
-                  data-icon="twemoji:owl"
-                  style={{
-                    display: "block",
-                    height: "100%",
-                    fontSize: 25,
-                    textAlign: "end",
-                    marginLeft: "20px"
-                  }}
-                ></span>
-              }
-              checkedIcon={
-                <span
-                  className="iconify"
-                  data-icon="noto-v1:sun-with-face"
-                  style={{
-                    display: "block",
-                    height: "100%",
-                    fontSize: 25,
-                    textAlign: "end",
-                    marginLeft: "10px"
-                  }}
-                ></span>
-              }
-            />
-          </div>
+              <Switch
+                checked={this.state.checked}
+                onChange={this.onThemeSwitchChange}
+                offColor="#baaa80"
+                onColor="#353535"
+                className="react-switch"
+                width={90}
+                height={40}
+                uncheckedIcon={
+                  <span
+                    className="iconify"
+                    data-icon="mdi:weather-night"
+                    style={{
+                      display: "block",
+                      height: "100%",
+                      fontSize: 25,
+                      textAlign: "end",
+                      marginLeft: "20px"
+                    }}
+                  ></span>
+                }
+                checkedIcon={
+                  <span
+                    className="iconify"
+                    data-icon="mdi:white-balance-sunny"
+                    style={{
+                      display: "block",
+                      height: "100%",
+                      fontSize: 25,
+                      textAlign: "end",
+                      marginLeft: "10px"
+                    }}
+                  ></span>
+                }
+              />
+            </div>
           </div>
         </div>
       </header>
