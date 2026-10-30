@@ -100,15 +100,29 @@ class Footer extends Component {
             }}
           />
 
+
           <div className="copyright">
             <small>
-              © {new Date().getFullYear()}{" "}
-              {this.props.sharedBasicInfo
-                ? this.props.sharedBasicInfo.name
-                : "Umesh Lakhani"}
-              . All Rights Reserved.
+              © {new Date().getFullYear()} Umesh Lakhani.
+              All rights reserved for original content, projects and personal branding.
             </small>
+
+            <div className="mt-2">
+              <small>
+                Original template:{" "}
+                <a
+                  href="https://github.com/Dorota1997/react-frontend-dev-portfolio"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ color: "inherit", textDecoration: "underline" }}
+                >
+                  Dorota Gil
+                </a>
+                {" "} | Licensed under MIT License.
+              </small>
+            </div>
           </div>
+
 
         </div>
       </footer>
